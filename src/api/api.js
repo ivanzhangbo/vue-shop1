@@ -1,6 +1,7 @@
 import axios from "axios"
 
-let local_host = 'http://127.0.0.1:8000';
+// let local_host = 'http://127.0.0.1:8000';
+let local_host = 'http://heroku.com';
 
 //登录
 export const login = params => {
